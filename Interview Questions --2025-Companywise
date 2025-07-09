@@ -944,7 +944,7 @@ Exp-- 4-5 yrs (DEVOPS)
 9.what is the difference between monolithic and microservices 
 10.explain did u done any automation in your project 
 11.pls explain the flow how the pipeline will trigger across different environments 
-12.if developer is working on a code, what are all the next steps he has to do for running the pipeline along wd devops engineer 
+12.if developer is working on a code, what are all the next steps he has to do for running the pipeline along wd dgoogle translate english to hindievops engineer 
 13.what are all the deployment startgies you use in deployments in k8s , explain canary and blue green strategies 
 14.what is devsecops  , did you use any tools for scanning image etc 
 15.what is the difference between classic pipeline and yml
@@ -1667,3 +1667,21 @@ Exp---- 7 yrs
 16.crashloopbackoff – what are the setps you will follow to troubleshoot further
 17.what are the branching strategies and pipeline creation mechanism 
 18.what are the files present inside helm chart 19.what is CNI plugin 
+
+=======================================================================================================================================
+LTI MINDTREE INTERVIEW QUESTIONS EXP 3-5 years. (L2)
+
+1. How do you design a fault-tolerant architecture in the cloud?
+2. How do you manage secrets securely in GitOps or deployment pipelines?
+3. How do you implement blue-green or canary deployments using container orchestration?
+4. How do you manage multiple environments using reusable infrastructure code?
+5. What is the purpose of backends in infrastructure-as-code and how do you implement remote state with locking?
+6. How do you implement rollback in an automated deployment pipeline?
+7. How do readiness and liveness probes work and why are they important in production environments?
+8. How do you troubleshoot a pod that is stuck in CrashLoopBackOff?
+9. How do you secure sensitive data like passwords or API keys in infrastructure setups?
+10. How does your GitOps tool detect drift and how do you manage it?
+11. Write a script to monitor a service and restart it if it fails, including proper logging.
+12 .How do you handle parallel execution in CI/CD workflows?
+13. What’s the difference between using count and for_each in infrastructure code, and when should you use each?
+14. How do you monitor and alert on cloud resources effectively?
