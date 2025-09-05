@@ -2211,3 +2211,4 @@ How to create a user without an SSH access
 Difference between tf validate and format
 What are provisioners and how to use
 Hi Can anyone explain me best explanation on diffrenec between azure managed identity and service proncipal , how to explain this in tnterview
+how the alert is created with which metrics when cpu and memory goes high in vm, what is action group, how do you create an  alert explain step by step etc, some basic troubleshooting kql queries in log analytics workspace - check on those things, any automation done with scripting etc for monitoring..
