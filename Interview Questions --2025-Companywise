@@ -2191,3 +2191,22 @@ In your 4-year career, what is the biggest achievement you are most satisfied wi
 Do career achievements always need to be big and complex, or can they also be simple improvements?
 Is a service mesh always needed, or are alternative tools sometimes enough?
 
+
+MiscImp Qst -: 
+=====================
+
+Self intro 
+How to host an S3 static website without enabling public Access 
+Difference between secret manager and parameter store 
+Why to use Self hosted runner instead of default runner
+What CICD is using in your project for terraform infrastructure. 
+Difference between Iam users.. GitHub Oidc role and terraform io role.. which is secured and when to use use GitHub Oidc and when to use terraform io role
+Write a simple docker file 
+Write a terraform code to provision an Ec2
+You are having lambda function and role everything setup perfectly but logs are not coming up in the cw group how to troubleshoot?
+When to  use Ec2 and when to use Lambda.. give scenario based answers
+How DRS works.. explain the architecture
+How failover and failback happens in DRS
+How to create a user without an SSH access
+Difference between tf validate and format
+What are provisioners and how to use
