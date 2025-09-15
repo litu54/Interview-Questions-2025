@@ -2295,3 +2295,15 @@ Total  - 4 Technical Round, 2F2F and 2 Virtual Round.
 8. What is the difference between Liveness and Readiness Probes in Kubernetes ?
 9. What are the challenges you faced in your oranization and how did you overcome with it ?
 10. Rest questions are formal discussion about me and Reporting Manager ?
+
+==============================================================================================================================
+Company--->HCL  software
+Exp---5 years
+
+How do you display the last 10 lines of a large log file without opening it fully?
+In Kubernetes, how would you configure your deployment to double CPU allocation once usage crosses 70%?
+Can you write a basic Dockerfile for your application?
+What top-level security risks from OWASP do you usually check for?
+How do you configure Prometheus and Grafana for monitoring?
+If you have an on-prem application, how would you migrate and deploy it in a cloud-native environment?
+Can you explain Docker Compose and how it helps in multi-container application deployments?
