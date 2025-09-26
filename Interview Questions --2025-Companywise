@@ -2307,3 +2307,32 @@ What top-level security risks from OWASP do you usually check for?
 How do you configure Prometheus and Grafana for monitoring?
 If you have an on-prem application, how would you migrate and deploy it in a cloud-native environment?
 Can you explain Docker Compose and how it helps in multi-container application deployments?
+============================================
+Company--->Altmetrix SRE
+Exp---5yrs
+: How do you import a resource into Terraform that was created manually in AWS or GCP? What command would you use?
+: Can you describe your exposure to different environments like Dev, QA, and Prod?
+: What is your understanding of software architecture components (Load balancers, web servers, application servers, databases, and integrations)?
+: What is your experience with alerts, logging, and incident/problem resolution?
+: What is your knowledge of production system sizing, provisioning, setup, maintenance, and closure?
+: Describe your experience with infrastructure administration tasks like licensing, billing, cost reduction, and security.
+: Walk me through what is there in helm charts and how it is integrated.explain me that what is written on your helm charts? 
+ what is defined on your value dot yaml file?
+: Considering you have different environments and you have one application or which is microservice which is finally going to get deployed into one of the pod in GKE, 
+   right? So how it is basically getting deployed in cluster? I mean the deployment is basically failing just on the pod is currently in the error state. It is getting terminated. So how are you going to troubleshoot those such kind of Kubernetes issues?
+   What is your approach of doing a troubleshooting?
+: Can you, talked about the dashboards of observability? Which are the observability framework tools That you're currently using? 
+: can you tell me are you familiar with setting up dashboards and alerts yourself like creating dashboards and alerts?
+: So can you walk me through what all dashboards that you have created, what type of alerts that you have created?
+: Have you used it in your day-to-day basis of dashboarding and alerting like based on the principles of SRE golden signals to set up alerts and dashboards?
+: Did all those things and have you kind of done anything like SLO based learning?
+: can you explain me what is error budget?
+: In Observability there is a concept of SLO based alerting. So have you configured that in your project?
+: What is what is an ideal burn rate?
+: So how you are using terraform to deploy the cluster nodes?
+ : Set up the nodes and everything. what do you write inside a terraform code basically now what will be inside your provider file provided ATF in your main dotf?
+: I'll give you an example like let's talk about AWS. You have you're going to create a VPC and subnet And your provider is AWS and I'm asking you to write in using terraform.
+Like you have to deploy, you have to basically create VPC and map you have to create a subnet and you have to attach let's be the public or a private submit. It's of your choice to attach it to your VPC.
+ : You have optimized Kubernetes deployment configs. So can you explain me what have what was the role and what what have you done there?
+: You mentioned about like the are you have architected a blameless postmortem framework, right? So for continuous learning, so how I mean what have you done to improve occurrence of critical incidents that you have mentioned in your resume.
+You also mentioned about basically to reduce the MTTR so can you explain me what automation that you have done?
