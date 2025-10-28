@@ -2455,4 +2455,170 @@ nodes and pods?
 32. How do you scale EC2 instances?
 33. When do we use VPA (Vertical Pod Autoscaler)?
 34. Have you upgraded the EKS cluster?
+==================================================================================================================================================
+Company--->-persisent
+exp -----> 5 yrs
+Explain your last project
+What are the AWS resources you have used in your previous role?
+Can you write code in Python? (Provided some samples)
+What is terraform state mv?
+What are microservices?
+Explain flow of CI/CD pipeline
+Have u handled lambda? Explain your project
+How do you ensure POD to POD communication?
+What is hierarchy of Kubernetes?
+If you are given a project eg EC2 or EKS or anything else what are the things you would take into consideration from prerequisite till output?
+How would you decide on the type of environment required for deployment?
+Explain terraform statefile
+Explain terraform move command?
+What is subnet?
+If I have EC2 instance for which I don’t want to talk to internet but intra-communication can be possible, how to configure it?
+What is ECS & EKS and when would you choose either of it?
+If there is a vendor who provides VPN services for company A, his manager wants to view some dashboard but do not have AWS account. How would you help him?
+I have webapp in India and slowly users from abroad are also tyring to access it but there is latency. How would fix this issue, which service can help in reducing latency?
+What is AWS lambda and where have u used?
+What is Athena?
+What are the different type of S3 storages available?
+How do you scale EKS? What are the metrics considered and where do you add your inputs and How? Explain how you have done auto-scaling in your project
+==============================================================================================================================================================================
+Company---> E&Y
+experienc---->
 
+Explain the Kubernetes architecture and how it works.
+What is a Deployment in Kubernetes?
+What is a Service in Kubernetes?
+How does Pod-to-Pod communication work?
+What is Git Rebase?
+Explain your current project.
+What is a Pod Disruption Budget?
+What is the purpose of Docker?
+What is CrashLoopBackOff in Kubernetes?
+Have you deployed both applications and infrastructure? What kind of tech stack have you mainly worked on?
+For Java applications, what tool do you use to build them?
+Have you worked on Jenkins as your CI/CD tool, or used others like GitLab?
+What source code management tool have you used?
+What is the syntax or command you follow to deploy an application using Helm Charts?
+How do you manage concurrent builds in Jenkins and ensure performance doesn’t degrade?
+What is the difference between Declarative and Scripted pipelines?
+Have you used any artifact repositories like Nexus or Artifactory, and where do you store dependencies?
+What happens internally when you run a Maven build — how does it fetch dependencies from the repository?
+Have you used any security tool integrations in your pipelines?
+What is Rolling Strategy and Canary-based deployment?
+What is Hash-based deployment?
+What is a Persistent Volume in Kubernetes?
+What is a ConfigMap in Kubernetes?
+What is a Service Mesh and how does it work?
+What kind of observability tools have you used, and what metrics have you been monitoring?
+===================================================================================================================================================
+
+COMPANY--TCS SRE 
+EXP--->
+
+What is an Ansible Playbook?
+What is an Ansible Role?
+What is Ansible Tower?
+What is the difference between PV and PVC in Kubernetes?
+What is ConfigMap and Scheduler in Kubernetes?
+Explain your current e-commerce project and its architecture.
+What types of nodes did you deploy on AWS?
+What is the difference between Interface Endpoint and Gateway Endpoint in AWS?
+What does idempotent mean in Ansible?
+
+How does Kubernetes work — how do the master and worker nodes communicate, and what runs inside them?
+What is CrashLoopBackOff, and how do you troubleshoot it?
+Why does a pod show a “Pending” status in Kubernetes?
+If a rollback fails, how will you handle it?
+What is the command for rolling back to a specific revision in Kubernetes?
+What is a PVC in Kubernetes?
+How does Ansible work?
+What is an Ansible Role, and how do you create it?
+When you run a module like yum or apt and get “command not found,” what’s the reason?
+What is a Terraform state file interpreter?
+What to do if a terraform apply takes too much time?
+How to assign and print a variable in Bash?
+What are Lists and Tuples in Python?
+How do you restrict access to AWS resources for a specific user?
+How do you restrict a user to only EC2 and RDS access?
+When you create a VPC, what default components are added?
+What is an Ansible Role, and how do you create it?
+Explain the AWS architecture shown in the diagram (CodePipeline, CodeBuild, CodeDeploy, CloudFormation, CloudWatch).
+Do you have experience with operating systems — Windows or Linux? What types of file permissions exist in Linux?
+
+==========================================================================================================================================================>
+COMPANY--TCS SRE 
+EXP--->
+
+Gemini company interview questions
+What is Terraform drift?
+Difference between COPY and ADD commands in a Dockerfile.
+If a Docker image becomes very large with many layers, what steps would you take to reduce its size?
+If you have 10 layers in a Dockerfile and layer 6 fails, after fixing it, where will the rebuild start from and why?
+Difference between bind mounts and volumes in Docker.
+Why do we need a StatefulSet when we can attach a PVC to a Deployment and make it stateful?
+If a pod is created with a Deployment and another with a StatefulSet, will the StatefulSet pod always remain on the same node?
+If we can run MySQL with a Deployment and PVC, why do we need a StatefulSet?
+What happens if we scale a Deployment with one PVC from 1 to 3 replicas?
+What types of services exist in Kubernetes, apart from ClusterIP, NodePort, and LoadBalancer?
+Why does a pod created from a Deployment have two sets of random characters in its name?
+=====================================================================================================================================
+Company----Cpagemini 
+exp----
+
+
+What is the difference between NAT Gateway and IGW?
+If your pod is in Pending state, then what are your troubleshoot steps?
+Can you tell me the difference between secondary RDS and read-only RDS?
+So have you built the RDS of your own or you have managed it only?
+You have RDS and tomorrow, I being your client, will tell you that you need to make the configuration in such a way so that only one user can access the RDS at a time. How will you configure that?
+Like where I will set up the RDS, is it?
+To upgrade the version of DB in RDS, suppose you have 7.0 MySQL installed, and you want to upgrade it into 8.0 and above. What is the process?
+In a multi-account environment, if the resources are residing in one account and the users are in different accounts, how will you configure so that the user can access the resources?
+Because you are telling it from the IAM perspective, what about the VPC?
+You have an EC2 instance and you would like to migrate it from one region to another. How will you do it?
+You want to create an EC2, and while creating the instance, you are getting an error like IP address exceeded. How will you troubleshoot and fix it?
+That we can extend the subnet CIDR once it is created?
+Once you create that subnet, the instance will get created, but will it be able to communicate with the old instances?
+Asking different provisioners,
+How will I remove state file from locking?
+Suppose you have created an EC2 instance by logging into the AWS console. And now you would like to manage it using Terraform. How shall you do it?
+…resources in Terraform
+Different types of services in Kubernetes.
+In a multi-cloud environment, if you want to block a pod to go into a particular node, how would you do it?
+PVC.
+If we can use terraform import for existing AWS resources which are not created by Terraform, then what is the use of data source?
+===========================================================================================================================
+Company---->persistent
+
+
+With respect to DevOps, to set the CI/CD pipeline, which tools and services have you used?
+Do you have experience with AWS DevOps services like CodeDeploy, CodeBuild, and CodePipeline? How would you set up a pipeline using them?
+Do you have experience with GitHub Actions? Suppose I want to build and test a Java Maven application and create an artifact, what steps would you include?
+Where do you keep the GitHub Actions workflow file, and how do you upload a JAR artifact?
+You said you configured SonarQube. What does SonarQube do?
+Which version of SonarQube have you used — Community, Developer, Enterprise, or SonarCloud?
+How did you integrate SonarQube with Jenkins?
+In your project, what was the application language you scanned with SonarQube?
+How do you set up quality gates in SonarQube?
+What things have you done in Jenkins?
+Can you write a Jenkinsfile for a Node.js application to build, push Docker image, and deploy to Kubernetes? Please also explain it in detail.
+
+==============================================================================================================================================
+Company--empshais
+
+
+What is AWS Lambda and how do you design a serverless application?
+What is the difference between terraform plan and terraform apply?
+What are your roles and responsibilities in your current project?
+Can you explain your end-to-end project?
+What AWS resources have you created using Terraform and how do you promote a read replica to primary using Terraform?
+In Terraform, which parameter or code change is needed to make a read replica the primary?
+What is a 3-tier architecture?
+Which components or resources are required to create a 3-tier architecture using Terraform?
+If the RDS is in a private subnet, how do you access it securely without using public tools like MySQL
+Explain your end-to-end CI/CD pipeline in your current project
+Explain a simple CI/CD pipeline in short.
+Show a sample Jenkins CI/CD pipeline code.
+Explain if a standalone Jenkins server setup will work, and what to consider.
+Explain what an application pipeline is.
+
+How many ways can you trigger a Jenkins pipeline?
