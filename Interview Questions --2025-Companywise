@@ -2603,8 +2603,7 @@ What things have you done in Jenkins?
 Can you write a Jenkinsfile for a Node.js application to build, push Docker image, and deploy to Kubernetes? Please also explain it in detail.
 
 ==============================================================================================================================================
-Company--empshais
-
+Company--Empshasis
 
 What is AWS Lambda and how do you design a serverless application?
 What is the difference between terraform plan and terraform apply?
@@ -2620,5 +2619,117 @@ Explain a simple CI/CD pipeline in short.
 Show a sample Jenkins CI/CD pipeline code.
 Explain if a standalone Jenkins server setup will work, and what to consider.
 Explain what an application pipeline is.
-
 How many ways can you trigger a Jenkins pipeline?
+
+=====================================================================================================================================================
+Company---->JP Morgan
+Exp-5years
+Role--Devops/SRE
+
+1) What would you say is your strongest skillset area in DevOps/SRE and which technologies do you want to focus on going forward?
+2) Your application is currently running on EC2 instances in a public subnet. How would you migrate it to a private subnet without any downtime? Explain the complete approach. if it doent work how would u rollback?
+3) You have two running pods in a Kubernetes cluster, but they are unable to communicate with each other. There are no errors in the logs or events, and both pods appear healthy. How would you troubleshoot and restore communication between them?
+4) If a pod’s liveness or readiness probe is failing, how would you troubleshoot the issue?
+5)  Apart from  actuator health-check endpoints, what other checks can you perform using Kubernetes probes?
+6) If an application has only one replica and you perform a rolling restart, will there be downtime? Also what events occur during the pod restart can you explain the sequence step by step?
+7) You have an application with 2 replicas. During a rollout, the first pod is successfully replaced, but when the second pod is being replaced it enters a CrashLoopBackOff state. At that moment, which pod will the load balancer route traffic to the new pod, the old pod, or both? explain 
+8) Just like we use code-quality and security checks (quality gates, OWASP) before building an image, how can we prevent insecure infrastructure changes from being pushed using terraform?
+For example, if someone modifies a security group in Terraform and opens it to 0.0.0.0/0, what mechanisms can we use in Terraform to stop such changes from being applied?
+9) How would you handle Terraform state management for a team? Specifically, how would you store the tfstate file securely, make sure only one person can modify it at a time, and ensure the state is not tampered with? give me answers for all 3 qns
+10) You’ve joined a company where a large production infrastructure was built manually and the previous engineers have left. How would you bring that existing infrastructure under Terraform management? Walk me through your plan
+11) Are you aware of the recent AWS and Azure outages? What were your key takeaways from those incidents?
+12) If an entire region goes down and even a multi-cloud setup (like AWS + Azure) experiences outages how would you ensure that your data is still safe and not lost? What strategies would you use to guarantee reliable backups and recovery?
+13) What components or agents are typically installed along with Prometheus, and what does each of them do?
+14) In an EFK/ELK stack, what does each component do and how does the overall pipeline work? Additionally, how do filtering and indexing work inside Elasticsearch?
+15) Do you have any questions you would like to ask me? 
+
+
+=====================================================================================================================================================
+
+Comapny - Nice
+Position - Cloud Site Reliability Engineer
+EXP--3yr
+1) Explain your project .
+2) What is terraform how you configured your project ?
+3) What is modules in Terraform ?
+4) What is diffrence between CMD and Entrypoint in docker ?
+5) What is diffrence between ADD and Copy ?
+6) What is the deployment and statefullset ?
+7) What is the deployment ?
+8) what is the monitoring set up for your project ?
+9) Have you create the Dashboards in  Grafana ?
+10) How do you handle the HELM chart ?
+11) Explain CICD ?
+12) How you are maintaining ArgoCD for E1,E2,E3 env ?
+
+=====================================================================================================================
+Comapny - Nice
+Position - Cloud Site Reliability Engineer
+EXP--3yr
+[ ] Can you brief through your profile?
+[ ] Is it client-based work or are you just in the middle of deployment?
+[ ] You mentioned improving CI/CD efficiency by 60%. Can you explain the specific optimizations you made for this?
+[ ] What is your approach to integrating automated testing in pipelines to ensure high code quality?
+[ ] How do you integrate tools like SonarQube into your pipelines?
+[ ] How do you design and manage a containerized environment to ensure scalability and high availability?
+[ ] In Kubernetes, how do you manage application deployment, scaling, and rollback? Can you walk through a specific scenario?
+[ ] What is the advantage of using a YAML file over classic build pipelines in Azure DevOps?
+[ ] Any other advantages of using YAML pipelines that you have experienced personally?
+[ ] Are you familiar with Terraform?
+[ ] Can you describe a real-time scenario where you used Terraform to provision a highly scalable infrastructure?
+[ ] What branching strategy do you follow for source code management in a large team with a complex application?
+[ ] Do you have experience using Azure Key Vault?
+[ ] Have you integrated Azure Key Vault into your pipelines or branches in any project?
+[ ] Did you create the Azure Key Vault access policies yourself, or did someone else do it for you?
+[ ] What is a recent challenge you faced while implementing a DevOps practice or pipeline in your team or organization?
+[ ] Other than Azure and AWS, are you familiar with any other cloud platforms or services?
+
+================================================================================================================================================
+Comapny - Aspire 
+Position - 
+EXP--3.4 yr
+what is the difference between replica sets and daemon sets?
+what is the difference between pv and pvc in kuberenetes?
+what is the differences between git pull and git fetch?
+what is mean by git stash and pop?
+what is the difference between NACL and Security groups?
+what is the use of command terraform fmt?
+what is the the use of terraform import ?
+what is mean by Provisioner and provider in terraform?
+what is mean by CRR in s3?
+in which cases 503 status code errors in devops?
+what are the different types of triggers in lambda aws?
+What is mean by Nat Gateway and Nat instance?
+How to find orphan resources in kubernetes and remove it?
+What is mean by Sticky session in ALB?
+
+================================================================================================================================
+Comapny - Sapient
+Position - 
+EXP--->6yr
+In AWS, what all the services you have used?
+In Route 53, can you tell me the difference between A record and CNAME record (written as “ad code and symmetry code” in screenshot)?
+Purpose of DNS in your project.
+In your project, what was your domain name? How are you establishing connection between domain name and service?
+Have you created DNS record?
+Can you tell about your VPC structure and networking architecture used in your project?
+How many subnets are you having?
+In which subnet are you placing your EKS cluster and which networking components have you used?
+Why are you keeping your web application in a public subnet?
+Where Load Balancer will be there?
+How many AWS storage services does it have?
+EBS: Suppose you are maintaining data in EBS (sensitive data) — how are you securing those data?
+Iteration limit – what is it?
+What is the data block?
+What are modules in Terraform?
+How are you calling your modules?
+Have you worked on null resources?
+Explain Terraform state file –
+In which file you will define where Terraform state file should be generated and where it has to be maintained (which config file)?
+In which way are you managing your cluster — using kubectl commands or something else?
+If your cluster is in a private subnet, then outside kubectl will not be working, right? How are you accessing that?
+What is EBS and EFS in Kubernetes?
+I have an S3 bucket, and there is some file inside it — my pod wants to access that S3 bucket. How will it access it?
+
+===============================================================================================================================================================
+
