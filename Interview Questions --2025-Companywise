@@ -2732,4 +2732,142 @@ What is EBS and EFS in Kubernetes?
 I have an S3 bucket, and there is some file inside it — my pod wants to access that S3 bucket. How will it access it?
 
 ===============================================================================================================================================================
+============
+Company---Sony
+
+1.How would you respond to a production outage during peak hours?
+2.So how do you guarantee zero downtime deployments in Kubernetes.
+3.How do you decide to roll back or apply a hot‑fix when a production issue occurs?
+4.How would you design a system to survive if one AWS region goes down?
+5.How would you investigate a sudden three‑times increase in the AWS bill?
+6.How can you shorten a CI/CD pipeline that currently takes 45 minutes?
+7.How do you stop broken code from reaching production?
+8.How do you start troubleshooting when a Kubernetes cluster feels slow? 
+9.How do you guarantee zero‑downtime deployments in Kubernetes?
+10.What steps do you take when monitoring metrics say the system is healthy but users are still complaining?
+11.How do you design alerting so that you avoid noisy or false alerts?
+12.How do you design alerting to avoid alert fatigue?
+I want jenkins run pipeline once n number of commits are pushed how will you do that.
+What are the vulnerability reports in your sonarqube.
+If I want to start an ec2 instance once the cpu is utilised 80% what terraform code will you write and it also should copy the image from S3.
+How will you secure your jenkins pipelines.
+How would you design a Kubernetes cluster that must survive a full AZ failure without data loss, while running stateful workloads at scale?
+(Storage, networking, controllers, quorum, recovery)
+Explain the complete request flow when using Gateway API with multiple GatewayClasses across regions. How do you prevent split-brain routing?
+How do you debug intermittent pod restarts when liveness probes pass, readiness passes, but the pod is still killed by the node?
+What happens internally when etcd latency spikes above 500ms? How does it impact the scheduler, controllers, and API server?
+Design a multi-tenant Kubernetes platform where teams must not affect each other’s resource usage, network traffic, or upgrade cycles.
+How would you implement zero-trust networking inside Kubernetes without using a service mesh?
+Describe a real production incident where a misconfigured HPA caused cascading failure. How would you redesign autoscaling to avoid this?
+How do you safely refactor a Terraform monorepo with hundredsgg of state files into a module-based architecture without downtime?
+Explain how Terraform handles dependency graphs internally. How can circular dependencies still appear in real projects?
+How would you manage Terraform when multiple teams deploy to the same AWS account but must not overwrite each other’s resources?
+Describe a production failure caused by terraform apply. What guardrails would you implement to prevent it permanently?
+Why does a container sometimes exit immediately even though the application works perfectly in local testing? Give 3 real production causes.
+How would you design container images for ultra-fast cold starts in serverless or autoscaled Kubernetes environments?
+How do you design GitOps for 1000+ clusters with environment drift detection, emergency hotfixes, and controlled manual overrides?
+
+===========================================================================================================================
+Company==One2N
+YOE--->
+What is something you have implemented end to end in your project
+-HPA implementation in detail
+-Why would you deploy rabbitmq as stateful set why not deployment
+-How would you get application level metrics
+-How would HPA with stateful set work
+
+
+Deploying a 3 tier architecture
+-Your approach (Set of tools you would pick up)
+-Docker Swarm/Kubernetes
+-What kind of database you would use
+-How would you manage these microservices
+-How would you expose the application 
+-Is load balancer required in this setup why?
+-How would reverse proxy setup work here?
+-How would you setup DNS here?
+-How would you set up entire CI/CD setup for this application 
+-Is nginx required in this setup
+-How would you manage SSL and TLS
+-How would you update the image and deploy them 
+-Setup alerting for this setup 
+-Want to know how many users are affected ?
+-Which metric will tell me regarding the application is up or down?
+
+=========================================================================================================================================
+Company--->Alphadyne
+ YOE---> 5 Years
+Interviewer introduced himself and explained the role, team setup, and expectations and asked me to itroduce 
+Application is hosted on a public EC2 instance.How to migrate it to a private subnet following AWS best practices (security, networking, HA).
+How to provide HTTPS access to an application hosted in a private subnet.
+Discussion around ALB/NLB, ACM certificates, routing, and security groups.
+Infrastructure changes I have worked on. Deep discussion on architecture changes, optimizations, and real challenges faced.
+One major production Kubernetes issue that I solved and still remember.
+Root cause analysis, troubleshooting approach, fix, and preventive measures.
+Branching strategy discussion in depth.
+Why this strategy was chosen
+How it supports multiple environments, releases, and hotfixes.
+New application scenario:Developer has written only source code As a DevOps engineer, how to design CI/CD...Deploying to DEV / QA / PROD using best practices.
+Multibranch pipeline in Jenkins: How to configure it What problems it solves Why it is preferred over a normal SCM pipeline.
+
+===================================================================================================================================================
+
+What is the difference between import and include in Ansible?
+Can the same Terraform code be used for different cloud providers?
+What is the difference between a Deployment and a StatefulSet in Kubernetes?
+Give a command to find a process and kill it.
+What is MongoDB, and how does it work?
+How does high availability work in MongoDB (primary and secondary nodes)?
+What is artifact management, and which tool do you use in your organization?
+How do you reduce the size of a Docker image?
+Write a Bash script for log analysis.
+How do SSL and TLS certificates work?
+Explain the Maven lifecycle.
+What is the difference between Continuous Delivery and Continuous Deployment, and how do you implement them in Jenkins?
+Write a GitHub/GitLab pipeline to deploy a microservice with 3 services running in parallel.
+Write a Bash script or command to get the total number of lines in a file.
+In a log file, there is a keyword ERR. Give me the count of errors in the file.
+What is runs-on in a pipeline? Which type of runners are you using in your organization, and do you know how to configure self-hosted runners?
+How do you trigger a pipeline if:
+a. Code is pushed to a specific branch?
+b. Ignore if it is pushed to some other branch?
+c. Trigger if a PR is raised?
+What is a base image in a Dockerfile?
+Can we write a Dockerfile without a base image?
+What are decorators in Python?
+What is SonarQube, and why is it used?
+How do you set up a manual trigger in GitHub Actions?
+How do you set up GitHub runners for the application environment?
+Follow-up for Q23: If you are using GitHub Marketplace actions, which are third-party tools, how do you ensure security concerns regarding them?
+What is a matrix in GitHub Actions?
+What is the needs keyword in GitHub Actions?
+Briefly explain the architecture of your current project.
+Write the structure for building and pushing a Docker image for an application in GitHub Actions.
+Round 1: Technical Interview Questions
+See Thread ›
+There are no messages in this thread yet.
+Round 2: Techno-Managerial Interview Questions
+What type of GitHub branching strategy are you using? Please explain.
+How do you run jobs in parallel in GitHub Actions?
+How do you check the integrity of a Docker image or file?
+How do you handle secrets in your project?
+What steps are included in your GitHub Actions workflow file?
+How is static code analysis configured in your pipeline file?
+Which is the optimized method to run SonarQube: for every PR raised or every push?
+What are webhooks, and have you used them anywhere?
+How do you configure a pipeline with AWS or Docker?
+
+==============================================================================================================================================
+Company----->Moodys
+YOE---->3-4 yrs
+Can you briefly introduce yourself and explain your background relevant to DevOps/MLOps?
+How do you set up infrastructure for deploying ML models using Terraform?
+How do you manage and version Docker images stored in Amazon ECR?
+Apart from SageMaker, which AWS or open-source services have you used or are aware of for training ML models?
+If batch jobs are running for ML workloads, how do you handle deployments without impacting ongoing processing?
+How do you design and implement a complete CI/CD pipeline for ML models?
+How do you prevent misuse or unauthorized usage if someone attempts to spin up ML services in AWS?
+What strategies do you use to optimize and control AWS costs for ML workloads?
+How do you set up monitoring and observability for ML models in production?
+You are given a GitHub Actions workflow snippet. How would you identify incorrect steps and suggest improvements or missing steps for a robust CI/CD pipeline?
 
