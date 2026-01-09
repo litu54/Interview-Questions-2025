@@ -2871,3 +2871,14 @@ What strategies do you use to optimize and control AWS costs for ML workloads?
 How do you set up monitoring and observability for ML models in production?
 You are given a GitHub Actions workflow snippet. How would you identify incorrect steps and suggest improvements or missing steps for a robust CI/CD pipeline?
 
+==============================================================================================================================================
+
+Company ----------> Razorpay
+YOE ---------> 8 yrs
+
+All the logs are disabled in AWS, how to track the DIDOS attack which happend on your env ?
+More traffic is hitting your application, how to balance the DB based on that traffic and scale it without latency
+How to check the incoming traffic IP address in EC2 using linux command
+If readiness probe is failed, what will happen to your pods
+Developers should always create labels in their YAML file, if not K8s shouldn't allow it
+
