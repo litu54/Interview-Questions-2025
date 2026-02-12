@@ -1,0 +1,220 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Company name : Perfios
+Exp-->4.7yrs
+=========================================================
+What happens when an user hits "www.clarify.com" how the request pass through the network ?? write a diagram and explain it to me
+Explain amazon traffic architecture how it goes to private subnet? I write diagram and explained it
+Do you use pipeline for three different env or one for all? Explain how?write a groovy script using any ci cd took for build, test and deploy stages.
+Difference between cluster ip and node port?
+How does a three tier architecture looks like? Compare it with two tier
+What are ALB and NLB, and when should you use each one?
+Write a shell script to sum (1..100) and give me result
+Canary vs blue green
+How to achieve zero downtime application upgrade?
+Have you contributed any automation initiatives in your current company as a DevOps engineer?
+When you deploy from CI, you build a package and then need a platform to deploy the application. How do you build that platform, and if it requires human intervention, how do you eliminate that dependency?
+In GitHub, after a code commit, what validations do you perform? Do you validate before the commit or after the commit?
+Write a shell script that takes an integer N as input and prints numbers in a triangular pattern.
+Each row should contain consecutive numbers, but printed in reverse order, and the number of elements in each row should increase by one.
+
+==================================================================================================================================================================================================================================
+Company Name --LTI Mindtree
+Exp--->3 yrs 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+How do you deploy python application on aws using jenkins pipeline
+How do your day starts and what activities you perform
+How do you upgrade your eks
+How do you handle when pod dies
+Your aws jenkins pipeline takes high time, how will you troubleshoot
+Create manifest for 2 nginx replicas
+Create a terrsform state file s3 bucket which expires within 30 days
+How do you provide security in docker
+=================================================================================================
+Company--->IBM
+Exp-->5yrs
+
+Q1: lets say our app is nodejs app how wd u setup cicd pipeline
+and which ci/cd tools would you use?
+Q2: we are going to launch a website with many different products
+running many services and is expected to get high load during black friday
+how would u set up and make it highly available?
+Q3: users are facing slownesss issue, what will u do to resolve?
+Q4: now it is hosted and one of the services is leaking memory, how would you troubleshoot?
+Q5: out of aws and azure what would u choose and why?
+Q6: now the application is hosted and running, the billing is too much, the client asks you to
+reduce the billing by doing the needful, what would you do to reduce billing?
+Q7: diff b/w terraform, cloudformation and arm and what would u prefer?
+Q8: How would you store secure info inside s3?
+Q9: In lambda function, how would you handle failures and how would you set up retries?
+Q10: Lets say we have already hosted and app, now some changes has been made
+How would you redeploy this application with zero down time?
+
+=================================================================================================================
+
+k8s node pending state how to debug
+pod is pending state, due to disk issue, how to resolve
+Have u done k8s cluster upgrade
+u r unable to evict the pods from node, how to resolve
+Tell me the flow of network packets starting from user hit the application url
+Suppose during upgrade storage plugin had issue, unable to upgrade, what u will do ? (couldn't answer properly)
+what is pullsecret in Openshift, there were 1 more but forgot
+what is kubernetes operator? If I need to run a shell script before any container to start how can i do it using operator ?
+how do u handle sev-1 issue
+What is the extra component/service present in Managed k8s cluster in cloud
+
+=====================================================================================================================================
+Company--->Alphadyne
+YOE-->
+=================================
+Alphadyne assessment ->>
+multiple choice - 
+tool should a company use to automatedeploy configuration managing vm and container
+module used to install nginx web server when automating using ansible in new server
+ansible module u useto ensure specific package is installed on a new websrrver while configuring the server
+ansible module u useto ensure specific package is installed on a new websrrver while configuring the server
+Object used to manage kubernetes cluster and ensure pod always has specific resources 
+Best pick command to monitor disk write and reads
+i have pub key and i want a dev to provide access to a server. where do u store pub key
+User password on modern linux location
+Coding Task (Terraform on Azure):
+Define an Azure Virtual Network (VNet) with a given IP range
+Create multiple subnets for different layers (bastion, application, database)
+Configure Network Interfaces (NICs) and attach them to the correct subnets
+Provision Virtual Machines (VMs) using those NICs, with username and password authentication
+Create Public IPs where required
+Set up an Azure Bastion Host for secure access to the VMs
+Configure an Azure Load Balancer to route traffic to the application VMs
+
+=================================================================================================================================
+Company--->Nitor Infotech
+YOE-->6 yr
+===============
+1.CI/CD setup in current project. How does the flow look like
+2.Gitops approach, ArgoCD, Flux
+3.Shared libraries in jenkins
+4.How is caching implemented in jenkins in your project
+5.Current jenkins version
+6.How have you implemented parallelism in your pipelines
+7.Statefulset, daemonset, Deployment
+8.Networking in kubernetes, how have you implemented
+9.Taints, tolerations, affinity
+10.How would you reduce the runtime of pipeline, multi stage build
+11.SCP
+12.VPC Endpoint, IGW, Transit Gateway, Virtual Gateway
+13.Need to provide user only EC2 start and stop access how would you do it
+14.User has the role with policy to access S3 bucket, but it still not able to access what may be the reason
+15.Terraform refresh command
+16.How do you handle infrastructure code for multiple environments using terraform
+17.State locking in terraform
+18.Create a Deployment named web-app with:
+Image: nginx:1.25
+Replicas: 3
+Container port: 80
+Labels: app=web
+19.Write a nodeport service to expose the application on port 8080 for the above deployment
+20.Write a script to count how many processes are running under the user ubuntu.
+21.How have you implemented RBAC in your EKS setup
+
+===============================================================================================================================================================
+YOE-->6 yr
+Senior Cloud Administrator
+=========================
+If you are implementing HPA for statefulsets if new pod comes the pvc would be empty? How would it be able to serve the request?
+When would prefer on-prem Kubernetes cluster over EKS and vice-versa
+ECR
+Kubernetes architecture in depth. Every component functioning. How would you join a new node to control plane?
+Like kubelet is there any similar agent used to manage the control plane side of things?
+When would you implement HPA and VPA. Give an example
+Node selector, taints tolerations
+Pod is in pending state. Reasons?
+How would you implement security for Kubernetes(both on container side and the infra side using native Kubernetes solutions)
+What is the controller used to manage the self managed worker nodes
+What is karpenter. On which metric does it scale up and down?
+EKS cluster upgrade entire process
+Helm commands, how would you deploy an application via helm. How do you integrate this entire process via CI/CD
+Project specific questions(How would you setup a new environment on AWS, Terraform code provisioning)
+How many clusters are you managing currently, No of addons you have deployed
+Why would you need an application to be deployed as stateful set
+How are you provisioning infra using terraform via CI/CD
+
+============================================================================================================================================================
+Company--->Volkswagen group digital
+YOE-->
+==
+Looking for both DevOps (70%) and development (30%).
+1)How do you onboard a new project from code to release management with multiple environments like prod, QA, Dev.
+2) how do you automate all the steps in the CI and CD with lots of tools?
+3) how do you run security checks in docker image? 
+4)what are all production issues that you faced in k8s?
+5) how do you write CI/CD pipelines? 
+6) what was the recent script that you wrote?
+7) explain a CI/CD process that you worked on with all the steps?
+8)what all azure services do you use?
+9) what services  do you want to learn in azure DevOps apart from this? 
+10) what is the rest API? (As it requires development knowledge as wel
+
+==================================================================================================================================================================================================================
+
+Company--->Wipro 
+YOE-->4 yr
+==========================
+
+They were mainly looking for terraform and Aws experience 
+What commands you know in terraform
+⁠how do you manage state file
+⁠explain the process how do you get request to create cloud resource s
+⁠did you come across a scenario where you used terraform destroy
+⁠explain you cicd pipeline
+⁠explain your terraform modules
+⁠what are policies you used for cicd pipeline
+⁠diff between GitHub actions and Argo cd
+⁠diff bet Nat gateway and igw
+⁠explain your roles and responsibilities
+⁠Types of alerts in dynatrace
+⁠did you install one agent in your applications
+⁠explain command to use s3 native lock
+⁠different types of modules and why it’s used
+⁠what is route table
+⁠where does route table is placed (private subnet of private subnet)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Company---ITC infotech 
+YOE-->4 yr
+==========================================
+How to make connections between on prem to AWS suppose if we want to share files from on prem.
+how to connect S3 with ec2 if a script generates files daily that need to be pushed S3.
+How will you write terraform module for EKS.
+If your application is on EKS how the traffic flows if user hits the URL.
+What is difference between coreDNS and kube-proxy.
+What is OIDC provider in AWS.
+=======================================================================================================================+++++++++++++++++++++++++++++++++++++++++++++++++
+Company---ZS Associates 
+YOE-->6 yr
+========================
+Multi stage docker build. In which scenarios it would be useful. Is is suitable for compile based language?
+Layer caching, explain with an example
+Privileged mode in Docker. Explain with an example
+Design an architecture for the scenario: if I type www.application.com it should get resolved to the backend service
+Calico and VPC CNI plugin difference. Why one is preferred over other. How would they help in setting up networking for pod.
+How is an ip address allocate to a pod. Does CNI plugin use same CIDR range which is provided by VPC or different?
+Two pods which are part of same replica set are not able to communicate with each other what may be the reason
+How to handle the extra traffic coming onto pods? Which solution you can implement 
+After implementing HPA also some pods are in pending state. What maybe the reason
+How would you provision karpenter. What all things are needed in configuration
+Can you deploy mongo db database in EKS cluster. If yes how and what all configuration things you would need to keep in mind
+There are 3 backend pods in 3 different region. If one pod goes down how would the request be managed
+Suppose we configured a load balancer but it’s not accepting HTTPS request what would you do?
+Without installing certificate how would you divert the traffic coming from http to https
+How would karpenter know which node to provision. How would it get to know about resource constraints 
+Possible reasons for pod to be stuck in Crashloopbackoff
+A backend pod needs to interact with S3 and lambda. How would you achieve it
+How would the service account know which role to assume. What all things you would need to configure in the service account
+Ingress, Gateway API 
+A replica set has 3 pods. One pod is not coming up. What maybe be the reason
+Argo CD. How do you manage CI/CD in your organisation. How many EKS clusters you manage, no of nodes
+How do you implement state locking in terraform
+For each in terraform. Explain with an example
+If you want to deploy EC2 instances in 3 different region what would the terraform code structure look like
+questions on modules
+I have made some changes in the module for one resource, the resource should get updated but it should not get destroyed and recreated again when we do terraform apply. How would you approach 
+Want to create a module for EKS cluster. What would be the structure
