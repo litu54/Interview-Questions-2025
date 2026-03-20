@@ -327,4 +327,44 @@ If credentials are visible in CI/CD pipeline logs, what will you do?
 Explain Blue-Green deployment.
 
 
+========================================================================================
+COMPANY---> Wipro
+EXP-9 yrs
+Can you brief your self and your project and responsibilities
+Application on AWS EC2 behind the loadbalancer suddenly unavailable, how do you troubleshoot
+AWS billing increased suddenly, how do you identify the costs
+A developer asking Ec2 instance for his local deployment, how you will achieve and what type of instance you create and give it to them.
+In kubernetes a pod is going to crashloopbackoff, how do you troubleshoot.
+Kubernetes deployment done successfully but unable to access the application externally, how do you troubleshoot.
+When kubernetes node fails what will happen.
+In pod configuration what we should do from Production perspective
+What is Git and why we are using it and what is branching strategy
+How do you write in yaml to create a ci/cd pipeline from scratch to test and deploy from Dev to UAT
+what is maven and explain about repositories
+I have a senerio to deploy an application on 100 servers using Ansible, how do you perform it.
+Docker containers stopped suddenly after starting, how do you troubleshoot
+Jenkins pipeline deployment failed in production but working in Dev, how do you troubleshoot and fix the issues.
+What is argocd and why we are using it
+what is Gitops
+In AWS how do you configure subdomains (like godady/bigrock)
+
+
+==============================================================================================================
+
+COMPANY---> Plansource-ValueLabs Interview quetions
+
+1.how many subnets you can add to a VPC
+2.how to stream logs from docker conatiner to s3 from specific path within conatiner
+3.How you manage varibles in pipeline for terraform for different enevironments(dev/live/feture) 
+what happens when youe hit DNS from browser
+difference between http and https
+6.difference between  Service  and Task in ecs
+7.how Autocaling happens in aws ECS
+8.how you scale  your EKS cluster based metrics/logs
+difference between ALB and ELB and comes under which layer, when  to choose and why
+How to spead up s3 upload with files in large size,  and client uploaded 10 Gb file but failed  after uploading 5 gb how you confirm that 5 gb is uploaded to s3
+11.how do  you optimize S3 cost
+how do you make s3 secure  which is  have client sensitive  data
+how autoscaing happens with ALB
+
 ================================================================================================================
