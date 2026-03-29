@@ -29,7 +29,7 @@ Your aws jenkins pipeline takes high time, how will you troubleshoot
 Create manifest for 2 nginx replicas
 Create a terrsform state file s3 bucket which expires within 30 days
 How do you provide security in docker
-=================================================================================================
+===================================================================================================================
 Company--->IBM
 Exp-->5yrs
 
