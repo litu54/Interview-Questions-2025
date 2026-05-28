@@ -420,6 +420,7 @@ EXP- 5yrs
 
 ==============================================================================================================================================
 Company ---Product Base company---
+
 Difference between build artificats and pipeline artifacts and which one is better
 Elaborate the pipeline steps to move a file from azure blob to gcp cloud storage(automated way)
 Why Dynamic blocks are used in tf and write the skeleton for an azure resource using dynamic block
@@ -449,4 +450,88 @@ file system is 50% however its not able to write and df -ih is shoiwng full
 what is zombie process
 so list the usrs who  has not accessed the keys in iam for more than 90 days
 delete the inline policy for users where *  is mentioned in the iam users list
+
+
+==============================================================================================================================
+Company-->Sonata Software
+YOE: 6 +
+
+AWS Questions
+What are the AWS services that you have worked on?
+Can you tell me what is cold start in Lambda?
+Have you worked on API Gateway?
+Can you tell me the difference between REST APIs and WebSocket APIs in API Gateway?
+How do you protect an API Gateway?
+Can you tell me the difference between NAT Gateway and Internet Gateway?
+Say if you have both explicit deny and allow policy to a user in AWS IAM, what happens?
+Can you tell me the difference between managed policy and inline policy in IAM?
+How do you retrieve secrets from AWS Secrets Manager using Python?
+How do you protect the secrets in Secrets Manager?
+How do you encrypt secrets in AWS Secrets Manager?
+Say you need to configure EC2 instances automatically or replace themselves automatically when they fail. How do you implement this?
+Have you worked on AWS Auto Scaling?
+What is the use case of Auto Scaling?
+Will Auto Scaling automatically scale up? How do you set that up?
+Say you have EC2 instances running web servers and need deployment with minimal downtime during updates. How do you approach this?
+Can you tell me the difference between traditional RDS and Aurora?
+How does Aurora handle automatic backups?
+Have you worked on AppConfig?
+
+Terraform Questions
+Have you worked on Terraform?
+Say I created an S3 bucket using Terraform and want to modify the bucket name. Is it possible? How would you do this?
+Can you tell me what is Data Block in Terraform?
+How do you handle multiple environments in Terraform?
+What are modules in Terraform?
+
+GitLab / CI-CD Questions
+Have you worked on GitLab?
+Can you tell me what are rules in GitLab?
+
+Scripting / Programming Questions
+
+Which scripting language have you used?
+Can you tell me the difference between single ampersand (&) and double ampersand (&&) in shell scripting?
+What is search keyword in Python?
+What is the difference between shallow copy and deep copy in Python? 
+============================================================================================================================================
+Company-->IBM
+YOE: 5 +
+
+Write a script to delete files older than 10 days.
+What is hard and soft link
+What is Iptables in linux?
+How do servers get connected in Linux? explain.
+What tools do you use for configuration management?
+How can you install a patch through ansible in more than 20 servers?
+How can you reduce the build time in jenkins?
+What is a Jenkins agent?
+How can you trigger an automatic build in jenkins?
+Write Jenkins script to trigger simultaneous/ parallel execution.
+Write a terraform script to create EKS Cluster.
+How do pods interact with each other?
+What issues did you face with EKS Cluster?
+What to do when the etcd from EKS goes down?
+How to run a container on ecs cluster.
+In my EKS cluster 2 node groups are there before deploying pods , node group -2 is showing unhealthy why ? I do have all the permission to check, how to troubleshoot and step to avoid such situations on future.
+In my ec2 2 containers are running backend and frontend so i wanto connect my backend container to rds service how
+Terraform tf.state file is deleted  how to recover it( conditions: it was not sync with s3 or any vcs to take a backup)
+ ===============================================================================================================
+
+Company: BMW_TechWorks
+YOE: 3-4yrs
+
+1) Introduce yourself and explain your DevOps experience in the current organization.
+2) If an EC2 instance has a vulnerability, how would you identify and fix it?
+3) How do you patch EC2 instances?
+4) Can we separate disk space in an EC2 instance and run the application on one partition and the observability stack on another?
+5) How do you perform this disk separation, and which AWS services/tools do you use?
+6) Explain the project that you migrated.
+7) Have you containerized any application?
+8) Have you set up any CI/CD pipelines on your own?
+9) Have you used HashiCorp Vault?
+10) Have you used Java for coding ?
+
+
+
 
